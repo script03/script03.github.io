@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    background-color: rgb(24,26,27);
+    color: rgb(81, 80, 120);
+    font-family: 'Gaegu', cursive;
+    font-size: 82px;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.rounded {
+    font-family: 'Gaegu', cursive;
+    font-size: large;
+    background: none;
+    width: 125px;
+    height: 30px;
+    color: rgb(81, 80, 120);
+    border: 1.5px solid;
+    border-color:  rgb(51, 53, 54);
+    border-radius: 16px;
+    text-decoration: none;
+
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+}
+
+div.container {
+    background: rgba(83, 37, 37, 0);
+    width: 1500px;
+    height: 600px;
+    display: flex;
+    padding: 0.5em;
+    border-style: dashed;
+    margin: 200px auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div.box {
+    background: rgba(69, 193, 255, 0);
+    width: 600px;
+    height: 350px;
+    border-style: dashed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div.box1 {
+    width: 300px;
+    height: 20px;
+    padding: 40px;
+    background: rgba(75, 195, 255, 0);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@keyframes hover {
+    from {border-color: rgb(51, 53, 54);}
+    to {border-color: rgb(81, 80, 120);}
+}
