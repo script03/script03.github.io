@@ -1,12 +1,12 @@
 {
     "description": "Describe the use of this subdomain",
-    "repo": "https://github.com/<github-username>/<github-username>.github.io",
+    "repo": "https://github.com/script03/script03.github.io",
     "owner": {
-        "username": "<github-username>",
-        "email": "email@address",
-        "twitter": "<twitter-username>"
+        "username": "script03",
+        "email": "caido0318@gmail.com",
+        "twitter": "veztoast"
     },
     "record": {
-        "CNAME": "<username>.github.io"
+        "CNAME": "https://script03.github.io/"
     }
 } 
